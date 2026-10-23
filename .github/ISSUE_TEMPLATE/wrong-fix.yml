@@ -1,0 +1,47 @@
+name: Wrong fix / Неправильное исправление
+description: KeyFlip changed a word it shouldn't have, or missed one / KeyFlip исправил лишнее или пропустил слово
+title: "Wrong fix: "
+labels: ["wrong fix"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks! Exact examples help most. / Спасибо! Больше всего помогают точные примеры.
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What happened? / Что случилось?
+      options:
+        - Changed a word that was typed correctly / Исправил слово, набранное правильно
+        - Didn't fix a word typed in the wrong layout / Не исправил слово в неправильной раскладке
+        - Fixed it, but wrongly / Исправил, но неправильно
+        - Other / Другое
+    validations:
+      required: true
+  - type: input
+    id: typed
+    attributes:
+      label: What you typed / Что набрали
+      placeholder: "ghbdtn"
+    validations:
+      required: true
+  - type: input
+    id: got
+    attributes:
+      label: What KeyFlip produced / Что получилось
+      placeholder: "привет"
+  - type: input
+    id: expected
+    attributes:
+      label: What you expected / Что ожидали
+  - type: input
+    id: app
+    attributes:
+      label: App where you typed / В какой программе
+      placeholder: "Telegram, Safari, Notes…"
+  - type: input
+    id: version
+    attributes:
+      label: KeyFlip and macOS version / Версия KeyFlip и macOS
+      description: KeyFlip → О программе; Apple menu → About This Mac
+      placeholder: "KeyFlip 0.7, macOS 15.1"

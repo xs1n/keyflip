@@ -1,0 +1,18 @@
+name: Problem / Проблема
+description: KeyFlip doesn't start, crashes, or something else is broken / Не запускается, вылетает или что-то ещё не работает
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What's wrong? / Что не так?
+      description: What you did, what happened, what you expected. / Что делали, что произошло, что ожидали.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: KeyFlip and macOS version / Версия KeyFlip и macOS
+      placeholder: "KeyFlip 0.7, macOS 15.1, Apple Silicon"
+    validations:
+      required: true

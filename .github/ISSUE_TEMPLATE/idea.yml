@@ -1,0 +1,11 @@
+name: Idea / Идея
+description: Suggest a feature or an improvement / Предложить новую возможность или улучшение
+labels: ["idea"]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea / Ваша идея
+      description: What would you like KeyFlip to do, and why? / Что должен уметь KeyFlip и зачем?
+    validations:
+      required: true
