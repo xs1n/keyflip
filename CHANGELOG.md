@@ -2,6 +2,30 @@
 
 [Русская версия](CHANGELOG.ru.md)
 
+## 1.0.1 — November 13, 2026
+
+**After updating from 1.0, allow KeyFlip in Accessibility one more time** (System Settings → Privacy & Security → Accessibility → select KeyFlip → «−», then start KeyFlip and switch it on). This is the last time: KeyFlip is now signed with its own certificate, so future updates keep the permission.
+
+**Fixed**
+- After every update macOS turned KeyFlip off in Accessibility, and it stopped fixing anything until you allowed it again.
+- `nr` («тк»), `n/l/` («т.д.»), `b n/l/` («и т.д.»), «т.е.», «т.к.», «др.», «ул.» and other abbreviations typed in the wrong layout were not fixed.
+- Short words: `ye ладно` → «ну ладно», `dj вторник` → «во вторник», `tot` → «еще», `nen` → «тут».
+- ⌥ flipped only part of a nick or word glued to digits (`ы1тггы2` → `ы1nuus2`); now the whole piece up to the space flips: `s1nuus2`.
+- The start of a password like `GhBdTn12!` in ordinary text turned into «ПрИвЕт12!».
+- A fix made on Return or Tab couldn't be undone.
+- After switching the layout with ⌘Space or from the menu bar, the short word before was forgotten.
+
+**New**
+- **Keys your way:** flip with ⌥ Option, double Shift or your own shortcut; switch the layout with a single Shift or your own shortcut. Ready-made choices in the menu → «Клавиши», including Caramba-style Shift.
+- **Slang** («кринж», «рофл», «душнила», bruh, rizz…) is left alone and fixed when typed in the wrong layout.
+- **Capital letters:** words added to “My words” with a capital are always written so; «ул. ленина» → «ул. Ленина»; words you often write with a capital mid-sentence are learned. Optional: countries, big cities and common first names.
+- **Pause** from the menu for 15 minutes, an hour or three; exclusions «by hand only» or «completely off».
+- **Dictionary:** edit a word with a double-click; learned words unused for 3, 6 or 12 months can be removed automatically (off by default).
+- **Sounds and stats:** any macOS sound or your own file for fixes, a separate sound when a word is learned; fixes, undos and new words — today and in total.
+- **Clipboard** is restored fully after ⌥ flips selected text, and clipboard managers don't record it as a new copy.
+- **Beta versions:** «Получать бета-версии» in Settings → Updates, for those who want to try new things first.
+- «☕ Поддержать KeyFlip» in About.
+
 ## 1.0 — October 23, 2026
 
 First release of KeyFlip, a free keyboard layout auto-switcher for macOS.

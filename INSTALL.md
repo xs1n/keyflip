@@ -63,7 +63,7 @@ Click the ⌨️ icon in the menu bar → **Open KeyFlip…**, or just launch Ke
 
 KeyFlip updates itself: once a day it checks for a new version and offers to install it — click **Установить** (Install), and it downloads the update, replaces itself and restarts. You can also check any time: menu bar icon → **Проверить обновления…** (Check for updates). Your dictionaries and settings stay.
 
-By hand: download the new KeyFlip.dmg and drag KeyFlip to Applications, replacing the old one. After an update macOS may ask you to allow KeyFlip in Accessibility again: switch it off and on — and if that doesn't help, remove it with **−** and add it back with **+**.
+By hand: download the new KeyFlip.dmg and drag KeyFlip to Applications, replacing the old one. Since 1.0.1 KeyFlip is signed with its own certificate, so updates keep the Accessibility permission. Only when moving from 1.0 to 1.0.1 allow it once more: remove KeyFlip with **−** in Accessibility, start KeyFlip and switch it on.
 
 ## Uninstalling
 
