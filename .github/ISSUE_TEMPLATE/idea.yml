@@ -6,6 +6,6 @@ body:
     id: idea
     attributes:
       label: Your idea / Ваша идея
-      description: What would you like KeyFlip to do, and why? / Что должен уметь KeyFlip и зачем?
+      description: What would you like SwapType to do, and why? / Что должен уметь SwapType и зачем?
     validations:
       required: true

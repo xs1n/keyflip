@@ -1,6 +1,21 @@
-# What's new in KeyFlip
+# What's new in SwapType (formerly KeyFlip)
 
 [Русская версия](CHANGELOG.ru.md)
+
+## 1.0.2 — 16.11.2026
+
+**KeyFlip is now called SwapType.** The name KeyFlip turned out to be taken — there are about a dozen projects with that name on GitHub, and one of them is almost the same layout switcher for the Mac. The full story is in the [README](README.md#why-the-new-name). It's the same app: the update installs itself, and your settings, dictionaries and Accessibility permission are kept. After the update you'll find SwapType in Applications instead of KeyFlip.
+
+**Fixed**
+- Words typed in the wrong layout sometimes ended up in “Learned” (`ghbdtn`, for example) — and from then on they were never fixed. Such gibberish is no longer learned. If it's already in “Learned”, delete it there.
+- In Notes, TextEdit, Pages and Mail the app again checks that the word at the cursor is the one it saw before fixing it, as intended. In other apps this check stays off by default.
+
+**New** (all off by default, turn them on in Settings)
+- **The letter «ё»:** «еще» → «ещё», «елка» → «ёлка».
+- **A comma before «но», «а», «однако», «зато»:** «хотел но» → «хотел, но».
+- **An extra doubled letter:** «приввет» → «привет».
+- **Digits instead of punctuation:** «привет1» → «привет!», «как7» → «как?», «0блако» → «Облако».
+
 
 ## 1.0.1 — November 13, 2026
 

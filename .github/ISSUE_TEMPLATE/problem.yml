@@ -1,5 +1,5 @@
 name: Problem / Проблема
-description: KeyFlip doesn't start, crashes, or something else is broken / Не запускается, вылетает или что-то ещё не работает
+description: SwapType doesn't start, crashes, or something else is broken / Не запускается, вылетает или что-то ещё не работает
 labels: ["bug"]
 body:
   - type: textarea
@@ -12,7 +12,7 @@ body:
   - type: input
     id: version
     attributes:
-      label: KeyFlip and macOS version / Версия KeyFlip и macOS
-      placeholder: "KeyFlip 0.7, macOS 15.1, Apple Silicon"
+      label: SwapType and macOS version / Версия SwapType и macOS
+      placeholder: "SwapType 0.7, macOS 15.1, Apple Silicon"
     validations:
       required: true
