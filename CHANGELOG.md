@@ -4,7 +4,7 @@
 
 ## 1.0.2 — 16.11.2026
 
-**KeyFlip is now called SwapType.** The name KeyFlip turned out to be taken — there are about a dozen projects with that name on GitHub, and one of them is almost the same layout switcher for the Mac. The full story is in the [README](README.md#why-the-new-name). It's the same app: the update installs itself, and your settings, dictionaries and Accessibility permission are kept. After the update you'll find SwapType in Applications instead of KeyFlip.
+**KeyFlip is now called SwapType.** The name KeyFlip turned out to be taken — there are about a dozen projects with that name on GitHub, and one of them is almost the same layout switcher for the Mac. The full story is in the [README](https://github.com/xs1n/swaptype#why-the-new-name). It's the same app: the update installs itself, and your settings, dictionaries and Accessibility permission are kept. After the update you'll find SwapType in Applications instead of KeyFlip.
 
 **Fixed**
 - Words typed in the wrong layout sometimes ended up in “Learned” (`ghbdtn`, for example) — and from then on they were never fixed. Such gibberish is no longer learned. If it's already in “Learned”, delete it there.
